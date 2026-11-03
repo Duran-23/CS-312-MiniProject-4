@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: #023223;
+}
+
+.app-shell {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.card {
+  border-radius: 8px;
+}
+
+.card-title {
+  overflow-wrap: anywhere;
+}
+
+.card-text {
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+
+.navbar-brand {
+  cursor: pointer;
+}
+
+button {
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .navbar .container {
+    gap: 10px;
+  }
+
+  .card {
+    margin-bottom: 15px;
+  }
+}
